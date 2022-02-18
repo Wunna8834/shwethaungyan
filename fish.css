@@ -1,0 +1,48 @@
+body {
+    background: hsl(205, 100%, 87%);
+}
+p {
+    text-indent: 1rem;
+    padding-top: 1rem;
+}
+.fish-container {
+    margin-left: 0.5rem;
+}
+.fish-container img {
+    width: 20%;
+    height: 20rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.img-caption {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.text {
+    width: 100vw;
+    margin-right: 1rem;
+}
+.next {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.5rem;
+    margin-right: 1rem;
+}
+.next h3 {
+    font-size: 1.3rem;
+    color: rgb(10, 46, 206);
+}
+
+
+@media screen and (max-width: 800px) {
+    .fish-container img {
+        width: 100%;
+        height: 23rem;
+        margin: 2px;
+    }
+    body {
+        margin: 0;
+    }
+}

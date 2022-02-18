@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png"  href="./favicon.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="food.css">
+    <script src="app.js"defer></script>
+    <title>ShweThaungYan</title>
+</head>
+<body>
+    <div id="pre-loader"></div>
+    <header id="home">
+        <!--Nav Bar-->
+        <nav id="nav">
+            <div class="nav-center">
+                <div class="nav-header">
+                   <a href="index.html"><h1>BeachShweThaungYan</h1></a>
+                    <button class="nav-toggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+                <!--Links Container-->
+                <ul class="links">
+                    <li>
+                        <a href="index.html" class="scroll-link">home</a>
+                    </li>
+                    <li>
+                        <a href="#detail" id="about-sty" class="scroll-link">about</a>
+                    </li>
+                    <li>
+                        <a href="#food"  class="scroll-link">food</a>
+                    </li>
+                    <li>
+                        <a href="#contact">contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="slider">
+        <div class="myslider" style="display: block;">
+            <div class="txt">
+                <h1>Crab</h1>
+                <p>ဂဏန်းမာဆလာချက်</p>
+            </div>
+            <img src="./food/food5.jpg" style="width:100%;height:100vh" alt="">
+        </div>
+        <div class="myslider fade">
+            <div class="txt">
+                <h1>Prawn</h1>
+                <p>ပုစွန်ကြော်</p>
+            </div>
+            <img src="./food/food1.jpg" style="width:100%;height:100vh" alt="">
+        </div>
+        <div class="myslider fade">
+            <div class="txt">
+                <h1>Fish Ball</h1>
+                <p>ငါးအသားလုံးချိုချဉ်ကြော်</p>
+            </div>
+            <img src="./food/food2.jpg" style="width:100%;height:100vh" alt="">
+        </div>
+        <div class="myslider fade">
+            <div class="txt">
+                <h1>Fish</h1>
+                <p>ငါးခရမ်းချဉ်</p>
+            </div>
+            <img src="./food/food3.jpg" style="width:100%;height:100vh" alt="">
+        </div>
+        <div class="myslider fade">
+            <div class="txt">
+                <h1>Cuttlefishes</h1>
+                <p>ကင်းမွန်အချိုချက်<br>ဒေသအခေါ်- ရေကြက်</p>
+            </div>
+            <img src="./food/food4.jpg" style="width:100%;height:100vh" alt="">
+        </div>
+        <div class="myslider fade">
+            <div class="txt">
+                <h1>Fish</h1>
+                <p>ငါးသံပုရာပေါင်း</p>
+            </div>
+            <img src="./food/food6.jpg" style="width:100%;height:100vh" alt="">
+        </div>
+        <div class="myslider fade">
+            <div class="txt">
+                <h1>Octopus</h1>
+                <p>ရေဘဝဲဟင်းလျာ<br>ဒေသအခေါ်- ရေမျောက်</p>
+            </div>
+            <img src="./food/food7.jpg" style="width:100%;height:100vh" alt="">
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div class="dotsbox" style="text-align: center;">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+        </div>
+    </div>
+    <footer>
+        <h3 style="text-align: center;">Thanks Ko Thant Zin Oo for photos of sea-food.</h3>
+        <p>copyright &copy;<span id="date"></span>. all rights reserved.<br>
+            This website is for knowledge sharing.<br>
+            <span id="contact">Contact Me- "www.wunnaaungsayargyi99@gmail.com"</span>
+        </p>
+    </footer>
+    <a href="#home" class="top-link">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+    <script src="script.js"></script>
+</body>
+</html>

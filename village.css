@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+.ending {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin-right: 1rem;
+}
+.ending .name {
+    font-family: 'Poppins', sans-serif; 
+}
+p {
+    padding-top: 1rem;
+    text-indent: 1rem;
+}

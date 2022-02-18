@@ -1,0 +1,28 @@
+.img-sec {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.img {
+    width: 40vw;
+    height: 50vh;
+    margin: 1rem;
+}
+
+p {
+    text-indent: 1rem;
+    font-size: 1rem;
+    padding-top: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+    .img {
+        width: 85%;
+        height: 60vw;
+    }
+    p {
+        font-size: 14px;
+        padding-right: 2px;
+    }
+}

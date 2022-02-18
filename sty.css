@@ -1,0 +1,104 @@
+p{
+    font-weight: 300;
+    text-indent: 1.5rem;
+    padding-top: 1rem;
+}
+.background {
+    background: hsl(205, 100%, 87%);
+    margin: 1rem;
+    margin-bottom: 0;
+    border-radius: 0.5rem;
+    max-height: max-content;
+}
+.img-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.img-container img {
+    width: 30% ;
+    height: 40%;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+.article {
+    width: 90vw;
+    margin: auto;
+    margin-top: 1rem;
+}
+.article .sec-paragraph {
+    margin-top: 2rem;
+}
+.caption {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0.5rem;
+    
+}
+.caption p {
+    font-size: 1em;
+}
+.to-otherlink {
+    margin-left: 1rem;
+}
+.to-otherlink h3 {
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+ .line {
+    position: relative;
+    background: rgb(236, 16, 16);
+    width: 13%;
+    height: 3px;
+}
+.rel-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    background-color: aliceblue;
+}
+.rel-link .link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rel-link .link a {
+    font-size: 1rem;
+}
+
+.rel-link .link img {
+    width: 30%;
+    height: 10%;
+}
+
+
+@media screen and (max-width: 800px) {
+    p {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .background {
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+    .img-container img {
+        width: 95%;
+        height: 20%;
+        margin-right: 1.5rem;
+    }
+    .line {
+        width: 13rem;
+    }
+    .caption {
+        display: inline-block0;
+        position: absolute;
+    }
+    .sea-side {
+        margin-top: -36rem;
+    }
+}

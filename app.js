@@ -5,21 +5,22 @@ let counter = 1;
 slidefun(counter);
 
 let timer = setInterval(autoslide, 8000);
-function autoslide() {
+
+function autoslide() {  //auto slide the image
     counter += 1;
     slidefun(counter);
 }
-function plusSlides(n) {
+function plusSlides(n) { //slide to next image when user clicking to next or prev buttons.
     counter += n;
-    slidefun(counter);
-    resetTimer();
+    slidefun(counter); //callback function
+    resetTimer(); //remove current slide
 }
-function currentSlide(n) {
+function currentSlide(n) { //instantly show the respective image
     counter = n;
-    slidefun(counter);
+    slidefun(counter); //callback function
     resetTimer();
 }
-function resetTimer() {
+function resetTimer() { //function to remove current slide
     clearInterval(timer);
     timer = setInterval(autoslide, 8000);
 }

@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+p{
+    text-indent: 1rem;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    line-height: 2rem;
+}
+
 .ending {
     margin-top: 1.5rem;
     display: flex;
@@ -13,4 +20,5 @@
 p {
     padding-top: 1rem;
     text-indent: 1rem;
+    font-size: 14px;
 }

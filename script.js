@@ -25,11 +25,6 @@ window.addEventListener("scroll", () => {
     setProgress(); //callback to upper function
 });
 
-
-window.addEventListener("load", function() {
-    load.style.display = "none"; //after loading the entire page, remove the pre-loader display
-});
-
 navToggle.addEventListener("click", function() { //nav-bar toggle function
     links.classList.toggle("show-links");
 });

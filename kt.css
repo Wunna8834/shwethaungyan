@@ -62,7 +62,7 @@ p {
     p {
         font-size: 12px;
         margin-right: 6px;
-        
+        line-height: 2rem;
     }
     .first,.second,.third,.fourth {
         width: 100%;

@@ -155,17 +155,20 @@ a {
     background-image: url(./img/fisherman.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 .coconut {
     background-image: url(./img/cococut-tree.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
     
 }
 .village {
     background-image: url(./img/village.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 
 .boat .button-container {

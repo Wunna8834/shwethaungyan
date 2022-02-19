@@ -154,14 +154,18 @@ a {
 .boat {
     background-image: url(./img/fisherman.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .coconut {
     background-image: url(./img/cococut-tree.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 .village {
     background-image: url(./img/village.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .boat .button-container {

@@ -43,7 +43,7 @@
     <div class="container">
         <section class="content-sec"> <!--To add the contents to the followoing cards.-->
             <div class="card-container"> <!--I want to add more than two cards.-->
-                <div class="card">
+                <div class="card lazyload" data-bgset=" url(./img/sundown.jpg);">
                     <div class="card-content">
                         <div class="card-title"> <!--Title of this card.-->
                             <h2>ရွှေသောင်ယံဆိုတာဘယ်လိုနေရာမျိုးလဲ</h2>
@@ -58,7 +58,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card kyout-than">
+                <div class="card kyout-than lazyload" data-bgset="url(./img/kyout-than.jpg);">
                     <div class="card-content">
                         <div class="card-title"> <!--Title of this card.-->
                             <h2>ပင်လယ်ကရတဲ့တို့စရာ</h2>
@@ -73,7 +73,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card boat">
+                <div class="card boat lazyload data-bgset="url(./img/fisherman.jpg);">
                     <div class="card-content">
                         <div class="card-title"> <!--Title of this card.-->
                             <h2>ပင်လယ်ကြီးကငါတို့ရဲ့ထမင်းအိုး</h2>
@@ -88,7 +88,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card coconut">
+                <div class="card coconut lazyload" data-bgset="/img/cococut-tree.jpg);">
                     <div class="card-content">
                         <div class="card-title"> <!--Title of this card.-->
                             <h2 style="z-index: 1000;font-weight: 900;color: rgb(251, 251, 247);">အုန်းတောထဲကဘဝတွေ</h2>
@@ -104,10 +104,10 @@
                     </div>
                 </div>
                
-                <div class="card village">
+                <div class="card village lazyload" data-bgset="url(./img/village.jpg);">
                     <div class="card-content">
                         <div class="card-title"> <!--Title of this card.-->
-                            <h2>တိုးတက်ဖို့ဘာတွေလိုအပ်လဲ?</h2>
+                            <h2 style="z-index: 1000;color: rgb(251, 251, 247);">တိုးတက်ဖို့ဘာတွေလိုအပ်လဲ?</h2>
                         </div>
                         <div class="card-body"> <!--Fact of the respective card-->
                             <p style = "color: rgb(251, 251, 247);z-index: 1000;">
@@ -145,5 +145,7 @@
         </div>
     </footer>
     <script defer src="script.js"></script>
+    <script defer src="https://afarkas.github.io/lazysizes/plugins/bgset/ls.bgset.min.js"></script>
+    <script defer src="https://afarkas.github.io/lazysizes/lazysizes.min.js"></script>
 </body>
 </html>

@@ -135,7 +135,7 @@ a {
 .card {
     width: 40ch;
     height: 50ch;
-    background-image: url(./img/sundown.jpg);
+    
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 10px;
@@ -147,25 +147,25 @@ a {
     transition: transform 500ms ease;
 }
 .kyout-than {
-    background-image: url(./img/kyout-than.jpg);
+    
     visibility: 0.3;
     background-repeat: no-repeat;
 }
 .boat {
-    background-image: url(./img/fisherman.jpg);
+   
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
 }
 .coconut {
-    background-image: url(./img/cococut-tree.jpg);
+    
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
     
 }
 .village {
-    background-image: url(./img/village.jpg);
+    
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;

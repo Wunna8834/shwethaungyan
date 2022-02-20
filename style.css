@@ -152,20 +152,19 @@ a {
     background-repeat: no-repeat;
 }
 .boat {
-   
+    object-fit: cover;
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
 }
 .coconut {
-    
+    object-fit: cover;
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
-    
 }
 .village {
-    
+    object-fit: cover;
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
